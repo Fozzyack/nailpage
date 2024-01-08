@@ -17,4 +17,5 @@ A quick build of a sample nail salon page
 - [x] Services Section
 - [x] Testimonial Section
 - [ ] Book Appointment Section
+- [ ] Add Socials Section
 - [ ] Design seperate Booking Page
