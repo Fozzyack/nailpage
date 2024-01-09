@@ -1,0 +1,24 @@
+.mainsection {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.nothero  {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+    .mainsection {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .mainsection {
+        padding-left: 16rem;
+        padding-right: 16rem;
+    }
+}
+
