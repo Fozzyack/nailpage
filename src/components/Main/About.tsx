@@ -4,7 +4,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className='flex flex-wrap md:grid md:grid-cols-2 justify-center gap-20 items-center'>
+        <div className='flex flex-wrap md:grid md:grid-cols-2 justify-center gap-20 items-center' id='about'>
             <div>
                 <Image src={'/HeroImageForNow.png'} alt='CoolLookingNails' width={1024} height={1024} className='w-[100%] h-[100%]' />
             </div>

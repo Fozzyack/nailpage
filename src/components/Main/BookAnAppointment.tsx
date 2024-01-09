@@ -1,6 +1,8 @@
+'use client'
 import { HeadFont } from '@/utils/fonts/applyfont'
 import Link from 'next/link'
 import React from 'react'
+import { motion } from 'framer-motion'
 
 const BookAnAppointment = () => {
     return (
@@ -13,11 +15,13 @@ const BookAnAppointment = () => {
                     Ready to treat yourself to a pampering experience? Booking an appointment is just a click away! We can't wait to welcome you and provide our exceptional services. Simply use our easy and convenient booking system to secure your preferred date and time. Your journey to beauty and relaxation starts here.
                 </p>
                 <div className='flex justify-center md:justify-start my-5'>
-                    <div className='px-3 py-2 border-2 border-black text-black hover:bg-black hover:text-white transition ease-in-out duration-300'>
+                    <motion.div
+                        whileHover={{ y: -5 }}
+                        className='px-3 py-2 border-2 border-black text-black hover:bg-black hover:text-white transition ease-in-out duration-300'>
                         <Link href={'/book'}>
                             Book an Appointment
                         </Link>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
             <div className='border h-full justify-center items-center flex tracking-wide'>

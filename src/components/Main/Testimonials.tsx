@@ -4,7 +4,7 @@ import React from 'react'
 
 const Testimonials = () => {
   return (
-    <div className='mb-12'>
+    <div className='mb-12' id='testimonials'>
       <h1 className={`${HeadFont.className} text-center text-5xl mb-5`}>
         Testimonials
       </h1>

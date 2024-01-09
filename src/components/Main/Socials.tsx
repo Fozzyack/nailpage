@@ -11,7 +11,7 @@ const Socials = () => {
       <h3 className={`${HeadFont.className} text-5xl text-center`}>
         Socials
       </h3>
-      <div className='grid grid-cols-2 md:grid-cols-4'>
+      <div className='flex gap-4 items-center justify-center'>
         <div className='flex flex-col justify-center items-center'>
           <Instagram />
           <p>Instagram</p>

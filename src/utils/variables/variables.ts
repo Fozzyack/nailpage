@@ -4,22 +4,22 @@ const NAVLINKS = [
     {
         id: 0,
         name: 'BOOK NOW',
-        to: '/'
+        to: '/book'
     }
     , {
         id: 1,
         name: 'SERVICES',
-        to: '/'
+        to: '#services'
     }
     , {
         id: 2,
         name: 'ABOUT',
-        to: '/'
+        to: '#about'
     }
     , {
         id: 3,
         name: 'TESTIMONIALS',
-        to: '/'
+        to: '#testimonials'
     }
 ]
 

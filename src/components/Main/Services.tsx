@@ -5,7 +5,7 @@ import ImageCard from './ImageCard'
 
 const Services = () => {
   return (
-    <div className='flex flex-col text-center mt-12 justify-center'>
+    <div className='flex flex-col text-center mt-12 justify-center' id='services'>
         <h3 className={`${HeadFont.className} text-5xl`}>
             Services
         </h3>
