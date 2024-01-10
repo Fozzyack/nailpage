@@ -32,3 +32,20 @@ export interface ServiceContextValue {
     index: number;
     setIndex: React.Dispatch<React.SetStateAction<number>>;
 }
+
+export type DateList = {
+    index: number;
+    Date: Date;
+}[]
+
+export type indexList = {
+    start: number;
+    end: number;
+}
+
+export interface DateContextValue {
+    dates: DateList;
+    setDates: React.Dispatch<React.SetStateAction<DateList>>;
+    viewIndex: indexList;
+    setViewIndex: React.Dispatch<React.SetStateAction<indexList>>;
+}

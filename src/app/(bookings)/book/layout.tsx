@@ -1,6 +1,6 @@
 'use client'
-import BreadCrumbs from '@/components/book/BreadCrumbs'
-import Totals from '@/components/book/Totals'
+import BreadCrumbs from '@/components/Book/BreadCrumbs'
+import Totals from '@/components/Book/Totals'
 import { ServiceContext } from '@/utils/contexts/servicecontext'
 import { HeadFont } from '@/utils/fonts/applyfont'
 import { services } from '@/utils/types/types'
